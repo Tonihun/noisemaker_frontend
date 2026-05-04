@@ -5,12 +5,12 @@ import { getProducts } from '../api';
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Gomb from '../components/Gomb';
-
+import { API_URL } from "../api";
 function Termek() {
     const [productsData, setProductsData] = useState([]);
     const { id } = useParams();
     const navigate = useNavigate();
-    
+
     useEffect(() => {
         (async () => {
             const data = await getProducts();

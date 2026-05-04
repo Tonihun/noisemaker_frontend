@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import { API_URL } from "../api";
 export default function Kosar() {
     const [kosarItems, setKosarItems] = useState([]);
     const [loading, setLoading] = useState(true);

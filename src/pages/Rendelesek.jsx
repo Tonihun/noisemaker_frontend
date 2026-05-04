@@ -5,7 +5,7 @@ import Gomb from '../components/Gomb'
 import Header from '../components/Header'
 import InputMezo from '../components/InputMezo'
 import '../css/App.css'
-
+import { API_URL } from "../api";
 function Rendelesek() {
     const navigate = useNavigate()
 
