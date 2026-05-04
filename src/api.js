@@ -33,7 +33,6 @@ export async function bejelentkezes(email, psw){
         headers: {
             'Content-Type': 'application/json'
         },
-         credentials: 'include',
         body: JSON.stringify({ psw, email })
     })
 
