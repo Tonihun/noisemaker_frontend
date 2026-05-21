@@ -18,7 +18,7 @@ function Footer(){
         <div className="footer-links">
           <h4 className="footer-title">Navigáció</h4>
           <a href="/fooldal" className="footer-link">Főoldal</a>
-          <a href="/rolunk" className="footer-link">Rólunk</a>
+     
         </div>
 
         <div className="footer-social">
@@ -36,7 +36,7 @@ function Footer(){
       </div>
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} NoiseMaker
+        © 2026 NoiseMaker
       </div>
     </footer>
   );

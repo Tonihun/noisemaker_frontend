@@ -614,11 +614,11 @@ export default function Admin() {
                 <button className="btn btn-success" onClick={openAddProductModal}>+ Új termék</button>
             </div>
 
-            <div className="d-flex justify-content-center px-3 my-2">
+            <div className="d-flex justify-content-end px-3 my-2">
                 <button className="btn btn-success" onClick={openAddCategoryModal}>+ Új kategória</button>
             </div>
 
-            <div className="d-flex justify-content-center px-3 my-2">
+            <div className="d-flex justify-content-end px-3 my-2">
                 <button className="btn btn-success" onClick={openAddSubcategoryModal}>+ Új alkategória</button>
             </div>
 
